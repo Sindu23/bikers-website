@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falcon & Flares</title>
+    <link rel="icon" href="assets/fav-icon.jpg" type="image/jpg">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="homestyle.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="left-side-logo">
+            <img src="assets/logo.png" alt="logo">
+        </div>
+        <!-- Toggle button for menu -->
+         <div class="toggle-button">
+            <button class="menu-toggle">☰</button>
+         </div>
+        <div class="right-side-icons">
+            <div class="nav-icons"><a href="home.html">Home</a></div>
+            <div class="nav-icons"><a href="events.html">Events</a></div>
+            <div class="nav-icons"><a href="shop.html">Shop</a></div>
+            <div class="nav-icons"><a href="gallery.html">Gallery</a></div>
+            <div class="nav-icons"><a href="about.html">About Us</a></div>
+            <div class="nav-icons"><a href="contact.html">Contact Us</a></div>
+        </div>
+    </nav>
+    <main>
+        <div class="sticky-btn">
+            <img src="assets/logo.png" alt="logo">
+            <button><a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ8NjPIKoW6Aw5APOSXx_gtFe3rH2kZPYIW-pq1mmsZSd4pw/viewform" target="_blank">Join Us</a></button>
+        </div>
+        <div class="intro-box">
+            <img src="assets/hero-img.jpg" alt="hero-img">
+                <div class="content-overlay">
+                    <h1>Welcome to Falcon & Flares</h1>
+                    <h1>Motorcycle Club</h1>
+                    <button><a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ8NjPIKoW6Aw5APOSXx_gtFe3rH2kZPYIW-pq1mmsZSd4pw/viewform" target="_blank">Join Our Community</a></button>
+                </div>
+        </div>
+        <section class="main-content">
+            <div class="campions">
+                <h1 class="camp-head">Champions</h1>
+                <div class="slides">
+                    <img src="assets/banner.png" alt="Image 1">
+                    <img src="assets/banner.png" alt="Image 2">
+                    <img src="assets/banner.png" alt="Image 3">
+                </div>
+                <!-- Controls -->
+                <button class="prev btn" onclick="prevSlide()">&lt;</button>
+                <button class="next btn" onclick="nextSlide()">&gt;</button>
+           </div>
+            <div class="upcoming-event">
+             <h1>Upcoming event</h1>
+             <h3>Mountain Thunder Ride</h3>
+                 <p><strong>Destination:</strong> Himalayan Mountains</p>
+                 <p><strong>Start Date:</strong> 15th October 2024</p>
+                 <p><strong>End Date:</strong> 20th October 2024</p>
+                 <p><strong>About the Ride:</strong> Experience the thrill of riding through the breathtaking Himalayan ranges <br>with fellow bikers. Adventure awaits!</p>
+                 <button>
+                     <a href="events.html">Know More</a>
+                 </button>
+            </div>
+        </section>
+        <div class="members-count">
+             <div class="members-count-align">
+                <div class="count">
+                    <h1 id="rider-count">Our Biker Brotherhood is <br> 1 + Riders Strong</h1>
+                </div>
+                <div class="group-img">
+                    <img src="assets/rider-count-img.jpg" alt="club-image">
+                </div>
+             </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="address">
+                <h1>Address</h1>
+                <P>Hyderabad, Telengana</P>
+            </div>
+
+            <div class="website-info">
+                <div class="sitemap">
+                    <h1>Site Map</h1>
+                    <div class="list-align">
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                          </ul>
+                          <ul>
+                              <li><a href="gallery.html">Gallery</a></li>
+                              <li><a href="about.html">About Us</a></li>
+                              <li><a href="contact.html">Contact Us</a></li>
+                          </ul>
+                    </div>
+                  </div>
+                  <div class="social-icons">
+                    <div class="contact-icons">
+                        <div class="icon-wrapper">
+                            <a href="https://www.instagram.com/falconandflares.motorcycleclub/profilecard/?igsh=aHQwNGNvZHp1MGlw"><i class="ri-instagram-fill custom-icons"></i>
+                                <span class="tooltip">falconandflares.motorcycleclub</span></a>
+                        </div>
+                        <div class="icon-wrapper">
+                            <a href="">
+                                <i class="ri-phone-fill custom-icons"></i>
+                            <span class="tooltip">Phone</span>
+                            </a>
+                        </div>
+                        <div class="icon-wrapper">
+                            <a>
+                                <i class="ri-mail-fill custom-icons"></i>
+                                <span class="tooltip">falconnflares.motorcycleclub@gmail.com</span>
+                            </a>
+                        </div>
+                        <div class="icon-wrapper">
+                            <a>
+                                <i class="ri-whatsapp-fill custom-icons"></i>
+                                <span class="tooltip">WhatsApp</span>
+                            </a>
+                        </div>
+                    </div>                
+                  </div>
+              </div>
+        </div>
+        <div class="rights">
+            <p>Copy Rights @2024 All rights are reserved Falcon & Flares motorcycle club</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
