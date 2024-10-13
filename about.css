@@ -576,6 +576,7 @@ footer p{
 }
 .rights p{
     font-size: 1.1vmax;
+    color: #F3E9DC;
 }
 /*Responsivness for footer*/
 @media (max-width: 430px){
